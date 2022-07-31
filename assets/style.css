@@ -18,40 +18,21 @@ h1{
 }
 body{
     background:#aab2c0;
+    position:relative;
 }
+
 .content{
+    position:absolute;
     width:70%;
     height:100%;
     margin-left:24%;
     margin-right:10%;
-}
-
-.content p,.content ul{
-    list-style-type:none;
-    margin: 0;
-    padding: 10px;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
+    align-items: center;
+}
 
-}
-/* .aboutMe {
-    margin-left:24%;
-    margin-right:10%;
-    font-size:160%;
-}
-.myWork{
-    margin-left:24%;
-    margin-right:10%;
-    text-align:center;
-    margin-top:20%;
-}
-.contactMe{
-    margin-left:24%;
-    margin-right:10%;
-    text-align:center;
-    margin-top:15%;
-} */
 nav ul{
     border-bottom:3px solid;
     list-style:none;
@@ -60,7 +41,7 @@ nav ul{
     overflow:hidden;
     background-color:rgb(202, 230, 255);
 }
-nav li{
+ li{
     float: right;
 
 }
