@@ -1,11 +1,11 @@
 *{
     box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 :root{
     --myRed:rgb(255 84 84);
     --myWhite:#f1f1f1;
     --myBlack:#2c3340;
-
 }
 
 h1{
@@ -21,6 +21,19 @@ body{
 }
 .aboutMe {
     margin-left:24%;
+    margin-right:10%;
+    font-size:160%;
+}
+.myWork{
+    margin-left:24%;
+    margin-right:10%;
+    text-align:center;
+}
+.contactMe{
+    margin-left:24%;
+    margin-right:10%;
+    text-align:center;
+    align-content:space-between
 }
 nav ul{
     border-bottom:2px solid;
@@ -38,9 +51,9 @@ nav li a {
     display:block;
     color:var(--myRed);
     text-align:center;
-    padding: 14px 16px;
+    padding: 13px 16px;
     text-decoration: none;
-    font-size:130%;
+    font-size:150%;
 }
 h2{
     text-align:left;
@@ -60,16 +73,12 @@ article ul{
 .sidebar{
     display:block;
     height:100%;
-    width:184px;
+    width:190px;
     position:absolute;
     left:0;
     top:131px;
     padding-top: 40px;
     background-color:var(--myWhite);
     border-right:solid;
-}
-
-.myWork{
-    text-align:center;
 }
 
