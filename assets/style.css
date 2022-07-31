@@ -3,17 +3,18 @@
 }
 :root{
     --myRed:rgb(255 84 84);
+    --myWhite:#f1f1f1;
+    --myBlack:#2c3340;
+
 }
-.heading{
-    text-align:left;
-}
+
 h1{
     font-weight:bold;
     font-size:250%;
     text-align:center;
     padding: 20px;
-    background:#2c3340;
-    color:var(--myRed)
+    background:var(--myBlack);
+    color:var(--myRed);
 }
 body{
     background:#aab2c0;
@@ -38,15 +39,31 @@ nav li a {
     font-size:130%;
 }
 
+
 h2{
     text-align:left;
     font-size:200%;
-
 }
 
-footer{
-   text-align:center;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   padding:30px;
-   font-size:150%;
+article ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    height:100%;
+    width: 200px;
+
 }
+.sidebar{
+    height:100%;
+    width:182px;
+    position:absolute;
+    left:0;
+    top:129px;
+    padding-top: 40px;
+    background-color:var(--myWhite);
+}
+
+.myWork{
+    text-align:center;
+}
+
