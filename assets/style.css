@@ -1,11 +1,19 @@
 *{
     box-sizing:border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 :root{
     --myRed:rgb(255 84 84);
     --myWhite:#f1f1f1;
     --myBlack:#2c3340;
+}
+body{
+    background:#aab2c0;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    justify-content:flex-start;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1{
@@ -16,15 +24,12 @@ h1{
     background:var(--myBlack);
     color:var(--myRed);
 }
-body{
-    background:#aab2c0;
-    position:relative;
-}
-
 main{
     display:flex;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
+    flex-grow:1;
 }
+
 
 .content{
     position:absolute;
@@ -33,31 +38,31 @@ main{
     margin-left:24%;
     margin-right:10%;
     display:flex;
+    flex-wrap:wrap;
     flex-direction:column;
     justify-content:space-between;
     align-items: center;
 }
 
-
 .aboutMe{
     font-size:180%;
     height:33%;
     color:var(--myRed);
-}
-.myWork{
     display:flex;
-    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
 
 }
-.myWork li{
+.myWork{
+    flex:4;
     display:flex;
-    flex-direction:row;
-    flex-grow:1;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.myWork li{
     list-style:none;
     align-items:center;
-    justify-content:space-evenly;
     padding:2px 8px;
-    
 
 }
 
@@ -65,13 +70,11 @@ main{
     list-style:none;
     text-align:center;
     font-size:180%;
-    justify-content:space-evenly;
     padding:13px 16px;
     color:var(--myRed);
 }
 
 nav ul{
-    border-bottom:3px solid;
     list-style:none;
     margin:0;
     padding: 10;
@@ -104,19 +107,18 @@ h2{
     top:147px;
     padding-top: 40px;
     background-color:var(--myWhite);
-    border-right:solid;
-    border-top:solid;
 }
 
 .sidebar ul{
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding:10px;
     height:100%;
     width:200px;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
+    flex:1;
 }
 
 
