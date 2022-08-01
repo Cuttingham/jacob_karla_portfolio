@@ -33,6 +33,14 @@ body{
     align-items: center;
 }
 
+.myWork{
+    font-size:150%;
+    display:flex;
+    flex-direction:column;
+
+
+}
+
 nav ul{
     border-bottom:3px solid;
     list-style:none;
@@ -82,3 +90,14 @@ h2{
     justify-content:space-between;
 }
 
+.contactMe li{
+    list-style:none;
+    text-align:center;
+    font-size:180%;
+    justify-content:space-evenly;
+    padding:13px 16px;
+}
+
+.myWork li{
+    padding:6px 16px;
+}
