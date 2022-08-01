@@ -72,7 +72,7 @@ h2{
     width:190px;
     position:absolute;
     left:0;
-    top:131px;
+    top:147px;
     padding-top: 40px;
     background-color:var(--myWhite);
     border-right:solid;
@@ -89,6 +89,12 @@ h2{
     flex-direction:column;
     justify-content:space-between;
 }
+.aboutMe{
+    font-size:180%;
+}
+.myWork li{
+    padding:6px 16px;
+}
 
 .contactMe li{
     list-style:none;
@@ -98,6 +104,3 @@ h2{
     padding:13px 16px;
 }
 
-.myWork li{
-    padding:6px 16px;
-}
