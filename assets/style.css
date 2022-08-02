@@ -1,3 +1,61 @@
 *{
     box-sizing:border-box;
 }
+
+header{
+    padding:40px;
+    text-align:center;
+    background:#13293d;
+    color:#fff;
+}
+
+nav {
+    padding:15px;
+    text-align:end;
+    background:red;
+    color:#fff;
+}
+main{
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:8%;
+    flex-direction:column;
+
+}
+article{
+    position:absolute;
+    width:8%;
+    height:100%;
+    background-color:blue;
+    padding:2px;
+    display:inline-block;
+    left:0px;
+}
+
+body{
+    background-color:grey;
+}
+
+.aboutMe{
+    padding:30px;
+    background-color:green;
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    margin:20px;
+}
+.myWork{
+    padding:60px;
+    background-color:purple;
+    width:100%;
+    margin:20px
+}
+footer{
+    background-color:lightblue;
+    width:100%;
+    height:60px;
+    bottom:0;
+    padding:11px;
+    text-align:center;
+    margin:-20px;
+}
